@@ -4,8 +4,11 @@
 3. create 3 workspace, select the workspace and assign the value for the variable env.
     Dev environment:
       terraform workspace new dev
+   
       terraform workspace select dev
+   
       terraform plan
+   
       terraform apply -var="env=dev" --auto-approve
 
     Staging environment:
